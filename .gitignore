@@ -1,0 +1,6 @@
+# Ignoring directories
+
+fonts/
+img/
+includes/
+js/
