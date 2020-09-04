@@ -48,6 +48,27 @@
 	gtag('config', 'UA-127736747-3');
 	</script>
 <!-- Analytics END -->
+
+<!-- Empêcher la sélection -->
+<script type="text/javascript">
+	//<!--
+			function ffalse()
+			{
+					return false;
+			}
+			function ftrue()
+			{
+					return true;
+			}
+			document.onselectstart = new Function ("return false");
+			if(window.sidebar)
+			{
+					document.onmousedown = ffalse;
+					document.onclick = ftrue;
+			}
+	//-->
+</script>
+<!-- Empêcher la sélection END -->
     
 </head>
 
@@ -126,184 +147,180 @@
 								<br>
 								<br>
 							</p>
-							<p class="text-center tc-black lead">
+							<p class="text-center tc-black lead hidden-md">
 								Classe universelle, qui assumera à la fois le rôle du char et du héros attaquant.
 							</p>
 						</div>
 					</a>
-					<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-						<div class="text-center">
-							<a href="perso_gladiator.html">
+					<a href="perso_gladiator.html">
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Gladiator_v2.png" class="center-block image-resize-mode" width="350" alt="Image Gladiator" />
-							</a>
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Gladiateur
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Arme: marteau
+								<br>
+								Avantages: capacité de survie élevée / soutien moyen
+								<br>
+								Inconvénients: attaque faible
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md">
+								Un char puissant capable d'absorber les frappes ennemies et de défendre les alliés.
+								<br>
+								Cette classe offre également un bon support en interrompant une attaque ennemie.
+								<br>
+								Cependant, cela coûte cher: un guerrier inflige relativement peu de dégâts, il a donc besoin du soutien d'un ou deux héros attaquants.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Gladiateur
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Arme: marteau
-							<br>
-							Avantages: capacité de survie élevée / soutien moyen
-							<br>
-							Inconvénients: attaque faible
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							Un char puissant capable d'absorber les frappes ennemies et de défendre les alliés.
-							<br>
-							Cette classe offre également un bon support en interrompant une attaque ennemie.
-							<br>
-							Cependant, cela coûte cher: un guerrier inflige relativement peu de dégâts, il a donc besoin du soutien d'un ou deux héros attaquants.
-						</p>
-					</div>
-											<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+					</a>
+					<a href="perso_assassin.html">
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
 
-						<div class="text-center">
-							<a href="perso_assassin.html">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Assassin_v2.png" class="center-block image-resize-mode" width="350" alt="Image Assassin" />
-							</a>
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Assassin
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Armes: Double poignards
+								<br>
+								Avantages: Attaque élevée
+								<br>
+								Inconvénients: vitalité et soutien faibles
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md">
+								Idéal pour les équipes avec de puissants héros / chars attaquants, car l'assassin est en mauvaise santé. 
+								De plus, vous aurez besoin d'un bon guérisseur.
+								Cependant, l'Assassin inflige des dégâts très élevés, 
+								détruisant les ennemis beaucoup plus rapidement que la plupart des autres classes disponibles.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Assassin
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Armes: Double poignards
-							<br>
-							Avantages: Attaque élevée
-							<br>
-							Inconvénients: vitalité et soutien faibles
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							Idéal pour les équipes avec de puissants héros / chars attaquants, car l'assassin est en mauvaise santé. 
-							De plus, vous aurez besoin d'un bon guérisseur.
-							Cependant, l'Assassin inflige des dégâts très élevés, 
-							détruisant les ennemis beaucoup plus rapidement que la plupart des autres classes disponibles.
-						</p>
-					</div>
-											<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-
-						<div class="text-center">
-							<a href="perso_chasseur.html">
+					</a>
+					<a href="perso_chasseur.html">
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Hunter_v2.png" class="center-block image-resize-mode" width="350" alt="Image Chasseur" />
-							</a>		
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Chasseur
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Arme: arc
+								<br>
+								Avantages: attaque élevée / capacité de survie moyenne
+								<br>
+								Inconvénients: soutien faible
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md">
+								Peut trouver une place dans n'importe quelle équipe car il inflige de puissants dégâts à longue portée. 
+								Cela donne au Chasseur un meilleur taux de survie que les Assassins, mais ils ont toujours de faibles compétences de soutien.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Chasseur
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Arme: arc
-							<br>
-							Avantages: attaque élevée / capacité de survie moyenne
-							<br>
-							Inconvénients: soutien faible
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							Peut trouver une place dans n'importe quelle équipe car il inflige de puissants dégâts à longue portée. 
-							Cela donne au Chasseur un meilleur taux de survie que les Assassins, mais ils ont toujours de faibles compétences de soutien.
-						</p>
-					</div>
-											<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-
-						<div class="text-center">
-							<a href="perso_mage.html">
+					</a>		
+					<a href="perso_mage.html">
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Mage_v2.png" class="center-block image-resize-mode" width="350" alt="Image Mage" />
-							</a>
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Mage
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Arme: sceptre
+								<br>
+								Avantages du personnel : Attaque élevée
+								<br>
+								Inconvénients: vitalité et soutien faibles
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md">
+								Fait d'énormes dégâts à distance, mais Mage a besoin de tout le soutien de votre équipe, y compris le tank et le guérisseur, 
+								pour compenser leur faible soutien et leur faible vitalité.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Mage
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Arme: sceptre
-							<br>
-							Avantages du personnel : Attaque élevée
-							<br>
-							Inconvénients: vitalité et soutien faibles
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							Fait d'énormes dégâts à distance, mais Mage a besoin de tout le soutien de votre équipe, y compris le tank et le guérisseur, 
-							pour compenser leur faible soutien et leur faible vitalité.
-						</p>
-					</div>
-											<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-
-						<div class="text-center">
-							<a href="perso_demon.html">
+					</a>
+					<a href="perso_demon.html">
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Warlock_v2.png" class="center-block image-resize-mode" width="350" alt="Image Démoniste" />
-							</a>	
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Démoniste
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Armes: doubles sceptres
+								<br>
+								Avantages: attaque élevée / capacité de survie moyenne
+								<br>
+								Inconvénients: soutien faible
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md">
+								Comme le chasseur, le livre noir se bat sur les deuxièmes lignes, infligeant d'énormes dégâts aux ennemis devant lui. 
+								Leur rayon d'attaque protège le héros de la plupart des dégâts ennemis.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Démoniste
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Armes: doubles sceptres
-							<br>
-							Avantages: attaque élevée / capacité de survie moyenne
-							<br>
-							Inconvénients: soutien faible
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							Comme le chasseur, le livre noir se bat sur les deuxièmes lignes, infligeant d'énormes dégâts aux ennemis devant lui. 
-							Leur rayon d'attaque protège le héros de la plupart des dégâts ennemis.
-						</p>
-					</div>
-											<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-
-						<div class="text-center">
-							<a href="perso_druide.html">
+					</a>	
+					<a href="perso_druide.html">
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Druid_v2.png" class="center-block image-resize-mode" width="350" alt="Image Druide" />
-							</a>			
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Druide
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Arme: baton
+								<br>
+								Avantages du personnel : bon soutien / capacité de survie moyenne
+								<br>
+								Inconvénients: attaque faible
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md">
+								Une classe de traitement et de soutien qui prendra soin de la santé de votre équipe. 
+								Il est préférable de travailler en conjonction avec un tank ou des héros attaquants pour compenser la faible puissance de l'attaque.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Druide
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Arme: baton
-							<br>
-							Avantages du personnel : bon soutien / capacité de survie moyenne
-							<br>
-							Inconvénients: attaque faible
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							Une classe de traitement et de soutien qui prendra soin de la santé de votre équipe. 
-							Il est préférable de travailler en conjonction avec un tank ou des héros attaquants pour compenser la faible puissance de l'attaque.
-						</p>
-					</div>
-											<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-
-						<div class="text-center">
-							<a href="perso_shaman.html">
+					</a>	
+					<a href="perso_shaman.html">		
+						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+							<div class="text-center">
 								<img itemprop="logo" src="img/Shaman_v2.png" class="center-block image-resize-mode" width="350" alt="Image Shaman" />
-							</a>				
+							</div>
+							<h2 class="mg-md tc-carmine-pink text-center">
+								Shaman
+							</h2>
+							<p class="text-center tc-yellow lead">
+								Arme: Tambourin
+								<br>
+								Pros: bon support
+								<br>
+								Inconvénients: faible attaque et capacité de survie
+								<br>
+								<br>
+							</p>
+							<p class="text-center tc-black lead hidden-md hidden-sm hidden-xs">
+								C'est l'une des deux classes de guérisseurs et spécialiste dans le soutien des coéquipiers. 
+								D'un autre côté, le Shaman a une attaque et une vitalité faibles, 
+								il devrait donc y avoir des classes de combat rapproché - de préférence un tank - et des héros attaquants autour de lui.
+							</p>
 						</div>
-						<h2 class="mg-md tc-carmine-pink text-center">
-							Shaman
-						</h2>
-						<p class="text-center tc-yellow lead">
-							Arme: Tambourin
-							<br>
-							Pros: bon support
-							<br>
-							Inconvénients: faible attaque et capacité de survie
-							<br>
-							<br>
-						</p>
-						<p class="text-center tc-black lead">
-							C'est l'une des deux classes de guérisseurs et spécialiste dans le soutien des coéquipiers. 
-							D'un autre côté, le Shaman a une attaque et une vitalité faibles, 
-							il devrait donc y avoir des classes de combat rapproché - de préférence un tank - et des héros attaquants autour de lui.
-						</p>
-					</div>
+					</a>				
+
 				</div>
 			</div>
 		</section>

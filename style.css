@@ -305,6 +305,8 @@ a:hover {
 
 .article-index{
     height: 40vw;
+    min-height: 800px;
+    min-width: 500px;
 }
 
 .navbar-brand {
