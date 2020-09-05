@@ -11,6 +11,28 @@
     font-style: normal
 }
 
+@font-face {
+    font-family: 'Ambit-Bold';
+    src: url('../fonts/Ambit-Bold.ttf');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Ambit-Light';
+    src: url('../fonts/Ambit-Light.ttf');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Burbank';
+    src: url('../fonts/BurbankBigCondensed-Bold.otf');
+    font-weight: normal;
+    font-style: normal
+}
+
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
