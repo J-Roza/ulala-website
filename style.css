@@ -330,6 +330,16 @@ a:hover {
     min-width: 500px;
 }
 
+@media (max-width: 768px){
+    .article-index{
+        height: 40vw;
+        min-height: 800px;
+        min-width: 200px;
+    }
+}
+
+
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -916,6 +926,14 @@ h4 {
     background-image: url("img/banner.jpg");
     background-size: 100%;
 }
+
+@media (max-width:768px) {
+    .bg-banniere {
+        background-image: none;
+    }
+
+}
+
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");

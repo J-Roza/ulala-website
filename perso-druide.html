@@ -3,7 +3,7 @@
 <head>	
 
 	<!-- Primary Meta Tags -->
-	<title>Guide Gladiateur Ulala : Idle Adventure</title>
+	<title>Guide Druide Ulala : Idle Adventure</title>
 	<meta name="title" content="Guide & Astuce sur Ulala : Idle Adventure">
 	<meta name="description" content="➤Un site dédié à Ulala : Idle Adventure contenant des ➤guides, ♥ astuces etc">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -48,6 +48,27 @@
 	gtag('config', 'UA-127736747-3');
 	</script>
 <!-- Analytics END -->
+
+<!-- Empêcher la sélection -->
+<script type="text/javascript">
+	//<!--
+			function ffalse()
+			{
+					return false;
+			}
+			function ftrue()
+			{
+					return true;
+			}
+			document.onselectstart = new Function ("return false");
+			if(window.sidebar)
+			{
+					document.onmousedown = ffalse;
+					document.onclick = ftrue;
+			}
+	//-->
+</script>
+<!-- Empêcher la sélection END -->
     
 </head>
 
@@ -83,28 +104,28 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="perso_guerrier.html">Guerrier</a>
+						<a href="perso-guerrier.html">Guerrier</a>
 					</li>
 					<li>
-						<a href="perso_gladiator.html">Gladiateur</a>
+						<a href="perso-gladiator.html">Gladiateur</a>
 					</li>
 					<li>
-						<a href="perso_assassin.html">Assassin</a>
+						<a href="perso-assassin.html">Assassin</a>
 					</li>
 					<li>
-						<a href="perso_chasseur.html">Chasseur</a>
+						<a href="perso-chasseur.html">Chasseur</a>
 					</li>
 					<li>
-						<a href="perso_mage.html">Mage</a>
+						<a href="perso-mage.html">Mage</a>
 					</li>
 					<li>
-						<a href="perso_demon.html">Démoniste</a>
+						<a href="perso-demon.html">Démoniste</a>
 					</li>
 					<li>
-						<a href="perso_druide.html">Druide</a>
+						<a href="perso-druide.html">Druide</a>
 					</li>
 					<li>
-						<a href="perso_shaman.html">Shaman</a>
+						<a href="perso-shaman.html">Shaman</a>
 					</li>
 				</ul>
 			</div>
@@ -120,14 +141,12 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h1 class="text-center hero-bloc-text tc-white">
-						Gladiateur
+						Druide
 					</h1>
 					<p class="text-center lead tight-width-whitespace tc-yellow">
-						Arme: Marteau
-						<br>
-						Avantages: capacité de survie élevée / soutien moyen						
-						<br>
-						Inconvénients : attaque faible						
+						Arme: baton<br>
+						Avantages du personnel : bon soutien / capacité de survie moyenne<br>
+						Moins: attaque faible<br>
 					</p>
 				</div>
 			</div>
@@ -139,168 +158,100 @@
 	<div class="bloc bgc-dark-slate-blue bloc-bg-texture texture-paper b-parallax" id="bloc-7">
 		<div class="row bloc bloc-md d-bloc ">
 			<div class="col-sm-8 col-sm-offset-2 mg-md avatar bgc-grey panel-rd">
-				<img itemprop="logo" src="img/Gladiator_v2.png" class="center-block image-resize-mode" width="350" alt="personnage du gladiateur" />
-				<p class="text-justify container tc-white lead">
-					Un char puissant capable d'absorber les frappes ennemies et de défendre les alliés.
-					Cette classe offre également un bon support en interrompant une attaque ennemie.
-					Cependant, cela coûte cher: un guerrier inflige relativement peu de dégâts, il a donc besoin du soutien d'un ou deux héros attaquants.
+				<img itemprop="logo" src="img/Druid_v2.png" class="center-block image-resize-mode" width="350" alt="personnage du druide" />
+				<p class="text-center tc-white lead">
+					Une classe de soutien qui prendra soin de la santé de votre équipe. 
+					Il est préférable de travailler avec un tank ou des héros attaquants pour compenser la faible puissance de l'attaque.
 				</p>
-				<section class="container">
+				<section>
 					<h2 class="h2 text-center tc-yellow">
-						Carte Sonnante
-						<img itemprop="logo" src="img/carte_glad.png" class="center-block image-resize-mode" width="300" alt="carte sonnante gladiateur" />
+						Attribut
 					</h2>
+					<p class="lead text-center tc-white">
+						Agilité : 3
+						Vigueur : 0
+						Techno : 2
+					</p>
+				</section>
+				<section>
+					<h2 class="text-center tc-yellow">
+						Concentrez-vous sur les cartes neige en premier lieux.
+						<img itemprop="logo" src="img/carte_druide.png" class="center-block image-resize-mode" width="300" alt="carte sonnante druide" />
+					</h2>
+					<h2 class="text-center tc-yellow">
+						Exécutez le poison pour TF9, construisez les 2 cartes poison après avoir atteint le continent 4
+					</h2>
+					<img itemprop="logo" src="img/carte_druide2.png" class="center-block image-resize-mode" width="300" alt="carte sonnante druide" />
 				</section>
 				<section class="container">
 					<h2 class="h2 tc-yellow">
-						Compétences fondamentales du Gladiateur :
+						Compétences fondamentales du Druide :
 					</h2>
 					<h4 class="tc-black">
 						Tier 1:
 					</h4>
 					<p class="lead tc-tangerine text-justify">
-						Lets Charge, Blood Howl, Toughen
-					</p>
-					<p class="lead tc-white text-justify">
-						Ces compétences doivent être acquises dès que possible. Des perles ou des étoiles de mer devront être dépensées pour les obtenir.
-						N’attendez pas le souhait.
-						<br>
-						<br>
-						Toughen a plus de valeur que Howl, mais à mesure que vous obtenez des jouets et que vous atteignez le Continent 4, ils s’inversent.
+						Life Bloom, Tranquility, Song of Protection, Mend
 					</p>
 					<h4 class="tc-black">
 						Tier 2:
 					</h4>
 					<p class="lead tc-tangerine text-justify">
-						HooHooHoo, HooKhamKham, Uppercut, Intercept
-					</p>
-					<p class="lead tc-white text-justify">
-						Ces compétences seront largement utilisées sur toutes les cartes.
-						<br> 
-						<br>
-						En fonction de la vitesse à laquelle vous améliorez vos compétences, la note affectera soit leur capacité à toucher, soit leur valeur.
-						<br>
-						<br>
-						En cas de mort de la ligne arrière, vous voudrez un HooHooHoo amélioré, dans le cas des autres compétences, la note affecte la capacité des compétences à frapper automatiquement.
+						Revitalize, Force of Bud, Lily, Tree Ward
 					</p>
 					<h4 class="tc-black">
 						Tier 3:
 					</h4>
 					<p class="lead tc-tangerine text-justify">
-						Boil Blood, Blood Combat
-					</p>
-					<p class="lead tc-white text-justify">
-						Ces compétences seront souvent utilisées pour gérer le calendrier de rotation des compétences.
-						<br>
-						<br>
-						Vous n'en verrez pas une utilisation intensive tant que votre coffre à jouets ne se remplira pas des 4 principaux jouets de réservoir, 
-						mais l'un d'entre eux sera dans presque toutes les versions après la mi-c3.
-					</p>
-					<h4 class="tc-black">
-						Tier 4:
-					</h4>
-					<p class="lead tc-tangerine text-justify">
-						Death Denied, Barbarian Veins, Blood Force, Cleave, Whirlwind, Rising Rage
-					</p>
-					<p class="lead tc-white text-justify">
-						Ces compétences ont toutes leur place tout au long du jeu.
-						<br> 
-						En fonction de la composition de votre équipe et des niveaux de puissance.
-						<br> 
-						<br>
-						Ce sera à vous de décider lequel conviendra le mieux en fonction de la composition de votre parti et des niveaux de puissance.
-						<br>
-						<br> 
-						Si votre CP DPS est beaucoup plus élevé que le vôtre ou si votre guérisseur est plus faible CP, vous aurez peut-être besoin de compétences de tank plus robustes.
-						<br>
-						<br> 
-						Si votre puissance est comparable ou supérieure à votre DPS, vous aurez peut-être besoin de compétences plus dommageables.
-						<br>
-						<br> 
-						Souvent cependant, une rotation plus rapide fournira plus de dégâts que l'utilisation des compétences DPS; avec des jouets ou permet de charger plus fréquemment.
-					</p>
-					<h4 class="tc-black">
-						Tier 5:
-					</h4>
-					<p class="lead tc-tangerine text-justify">
-						Toutes les compétences non répertoriées précédemment.
-					</p>
-					<p class="lead tc-white text-justify">
-						Ces compétences peuvent être utilisées en fonction de la puissance et des niveaux de CP de votre groupe.
-						<br>
-						<br>
-						Cependant, ils ne proposent aucune fréquence et très peu de personnes partagent des versions qui les utilisent.
-						<br>
-						<br> 
-						Vous feriez mieux d'acquérir toutes les compétences de niveau antérieur avant de vous concentrer sur elles.
+						Ukaka, Seed of Life, Aegis, Extended, Purification Seed, Seed of Replenish, Luna
 					</p>
 				</section>
 				<section class="container">
-
-					<h2 class="h2 tc-yellow">
-						Trempe :
-					</h2>
-					<p class="lead tc-white text-justify">
-						PV / Armure / Ténacité / Parade
+					<h2 class="h2 tc-yellow">Compétences Afk :</h2>
+					<p class="lead tc-white">
+					Ukaka / Quills Thrust 
 					</p>
-					<h2 class="h2 tc-yellow">
-						Familier recommandés :
-					</h2>
-					<ul class="text-justify tc-white lead mg-lg list-unstyled">
-						<h3>
-							Terre
-						</h3>
-						<p class="lead tc-white">
-							Dragon proto, Mammouth, Pousse arc-en-ciel (HH330)						
-						</p>
-						<br>
-						<h3>
-							Feu						
-						</h3>
-						<p class="lead tc-white">
-							Blaze (HH90), Dragon Tyrant
-						</p>
-						<br>
-						<h3>
-							Givre						
-						</h3>
-						<p class="lead tc-white">
-							Syngnathus (Lapras), Reine Dragon, Icesea Placoderme						
-						</p>
-						<br>
-						<h3>
-							Lightning						
-						</h3>
-						<p class="lead tc-white">
-							Dragon de foudre, Dragon du roi du tonnerre, Stégosaure du tonnerre						
-						</p>
-					</ul>
-					<section class="text-justify tc-white lead mg-lg list-unstyled">
-						<h3>
-							Type d'animal de compagnie recommandé
-						</h3>
-						<p class="lead tc-white text-justify">
-							Assistance
-						</p>
-					</section>
+				</section>
+				<section class="container">
+					<h2 class="h2 tc-yellow">Trempe :</h2>
+					<p class="lead tc-white">
+					Attaque PV Critique Armure
+					</p>
+				</section>
+				<section class="container">
+					<h2 class="h2 tc-yellow">Jouets de base :</h2>
+					<p class="lead tc-white">
+					Tier 1 : Mouton, Mobelin, Ermite, Marmotte / Marmotte des neiges
+					<br>
+					Tier 2 : Dodo, Reine Dragon, Os Anky
+					<br>
+					Tier 3 : Gorille, Elan, Pissenlit
+					</p>
 				</section>
 				<figure class="container">
 					<h2 class="h2 text-center tc-yellow">
 						Crystal recommandé
 					</h2>
-					<img itemprop="logo" src="img/gladiator_crystal.png" class="center-block image-resize-mode" width="300" alt="crystal recommandé gladiateur" />
+					<img itemprop="logo" src="img/druid_crystal.png" class="center-block image-resize-mode" width="300" alt="crystal recommandé druide" />
+					<br>
+					<h2 class="h2 tc-yellow">Attribut des Crystaux :</h2>
+
+					<p class="lead tc-white">
+						Attaque / Critique Rang 2 & 3
+						<br>
+						Attaque / Perforation Rang 2 & 3
+						<br>
+						Critique Rang 2 & 3					
+						<br>
+						PV Rang 2 & 3
+						<br>
+						PV / Armure Rang 3
+					</p>
 				</figure>
-				<section class="container">
-					<a href="img/gladiator_skill.png" target="_blank"> 
-						<h2 class="h2 mg-md tc-yellow text-center">
-							Cout des Compétences
-						</h2>
-						<img itemprop="logo" src="img/gladiator_skill.png" class="center-block image-resize-mode" width="70%" alt="cout des compétences gladiateur" />
-						<br>				
-					</a>
-				</section>
 			</div>
 		</div>
+		
+		
 	</div>
 	<!-- bloc-7 END -->
 
@@ -310,7 +261,7 @@
 </main>
 
 <!-- Footer - bloc-8 -->
-<footer class="bloc bgc-dutch-white bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-8">
+<footer class="bloc bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
