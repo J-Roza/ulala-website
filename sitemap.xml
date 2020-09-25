@@ -9,62 +9,67 @@
 
 <url>
   <loc>https://ulala-idle-adventure.iko-iko.net/</loc>
-  <lastmod>2020-09-05T01:49:45+00:00</lastmod>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ulala-idle-adventure.iko-iko.net/index.html</loc>
-  <lastmod>2020-09-05T01:49:45+00:00</lastmod>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ulala-idle-adventure.iko-iko.net/guide.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ulala-idle-adventure.iko-iko.net/training-jack.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ulala-idle-adventure.iko-iko.net/propos.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_guerrier.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/guerrier.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_gladiator.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/gladiator.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_assassin.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/assassin.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_chasseur.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/chasseur.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_mage.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/mage.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_demon.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/sorcier.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_druide.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/druide.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ulala-idle-adventure.iko-iko.net/perso_shaman.html</loc>
-  <lastmod>2020-09-05T00:54:38+00:00</lastmod>
+  <loc>https://ulala-idle-adventure.iko-iko.net/perso/shaman.html</loc>
+  <lastmod>2020-09-15T08:17:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

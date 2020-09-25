@@ -1,271 +1,314 @@
 <!doctype html>
 <html lang="fr">
-<head>	
 
+<head>
 	<!-- Primary Meta Tags -->
-	<title>A propos de Ulala : Idle Adventure</title>
-	<meta name="title" content="Guide & Astuce sur Ulala : Idle Adventure">
-	<meta name="description" content="➤Un site dédié à Ulala : Idle Adventure contenant des ➤guides, ♥ astuces etc">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+	<!-- Page Title -->
+	<title>A propos d'Ulala : Idle Adventure</title>
+
+	<!-- Canonical link -->
+	<link rel="canonical" href="https://ulala-idle-adventure.iko-iko.net/">
+
+	<!-- Secondary Meta Tags -->
+	<meta name="description"
+		content="Un site dédié à Ulala : Idle Adventure contenant ➤ guides pour les personnages, ➤ guide pour bien débuter, ➤ des astuces...">
 	<meta name="Content-Language" content="fr">
 	<meta name="Identifier-Url" content="https://ulala-idle-adventure.iko-iko.net/">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ulala-idle-adventure.iko-iko.net/">
 	<meta property="og:title" content="Guide Ulala : Idle Adventure">
-	<meta property="og:description" content="➤Un site dédié à Ulala : Idle Adventure contenant des ➤guides, ♥ astuces etc">
-	<meta property="og:image" content="">
+	<meta property="og:description"
+		content="Un site dédié à Ulala : Idle Adventure contenant ➤ guides pour les personnages, ➤ guide pour bien débuter, ➤ des astuces...">
+	<meta property="og:image" content="https://ulala-idle-adventure.iko-iko.net/img/logo_dino.jpg" />
 
 	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://ulala-idle-adventure.iko-iko.net/">
-	<meta property="twitter:title" content="Guide Ulala : Idle Adventure">
-	<meta property="twitter:description" content="➤Un site dédié à Ulala : Idle Adventure contenant des ➤guides, ♥ astuces etc">
-	<meta property="twitter:image" content="">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="https://ulala-idle-adventure.iko-iko.net/">
+	<meta name="twitter:title" content="Guide Ulala : Idle Adventure">
+	<meta name="twitter:description"
+		content="Un site dédié à Ulala : Idle Adventure contenant ➤ guides pour les personnages, ➤ guide pour bien débuter, ➤ des astuces...">
+	<meta name="twitter:image" content="https://ulala-idle-adventure.iko-iko.net/img/logo_dino.jpg">
 
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">    
+	<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
-
-<!-- Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127736747-3"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-127736747-3');
-	</script>
-<!-- Analytics END -->
-
-<!-- Empêcher la sélection -->
-<script type="text/javascript">
-	//<!--
-			function ffalse()
-			{
-					return false;
-			}
-			function ftrue()
-			{
-					return true;
-			}
-			document.onselectstart = new Function ("return false");
-			if(window.sidebar)
-			{
-					document.onmousedown = ffalse;
-					document.onclick = ftrue;
-			}
-	//-->
-</script>
-<!-- Empêcher la sélection END -->
-    
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 </head>
 
+
 <body itemscope="" itemtype="https://schema.org/Corporation">
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- header -->
-<header class="bloc bgc-white l-bloc bgc-dark-slate-blue d-bloc  bloc-bg-texture texture-paper b-parallax" id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img itemprop="logo" src="img/logo_ulala.png" alt="Logo Ulala Idle Aventure" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-						<a href="guide.html">Guide</a>
-					</li>
-					<li>
-						<a href="propos.html">A propos</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<nav class="navbar row">
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="perso-guerrier.html">Guerrier</a>
-					</li>
-					<li>
-						<a href="perso-gladiator.html">Gladiateur</a>
-					</li>
-					<li>
-						<a href="perso-assassin.html">Assassin</a>
-					</li>
-					<li>
-						<a href="perso-chasseur.html">Chasseur</a>
-					</li>
-					<li>
-						<a href="perso-mage.html">Mage</a>
-					</li>
-					<li>
-						<a href="perso-demon.html">Démoniste</a>
-					</li>
-					<li>
-						<a href="perso-druide.html">Druide</a>
-					</li>
-					<li>
-						<a href="perso-shaman.html">Shaman</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</header>
-<!-- header END -->
+	<!-- Principal conteneur -->
+	<div class="page-container">
 
-<main>
-	<!-- bloc-1-presentation -->
-	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-		<section class="container bloc-lg">
-			<div class="row tight-width-whitespace">
-				<div class="col-sm-12">
-					<img itemprop="logo" src="img/logo_ulala.png" class="center-block image-resize-mode" width="350" alt="Logo Ulala Idle Aventure" />
-					<h1 class="h1 text-center hero-bloc-text tc-white">
-						Ulala: Idle Adventure
-					</h1>
-					<div class="text-center">
-						<a href="guide.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink" id="cta-hero">Guide</a>
+		<!-- header -->
+		<header class="bloc bgc-white l-bloc bgc-dark-slate-blue d-bloc  bloc-bg-texture texture-paper b-parallax"
+			id="bloc-0">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html"><img src="img/logo_ulala.webp"
+								alt="Logo Ulala Idle Aventure" height="40" /></a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
+							data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+								class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
 					</div>
-				</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a itemprop="url" href="index.html">Accueil</a>
+							</li>
+							<li>
+								<a itemprop="url" href="guide.html">Guide</a>
+							</li>
+							<li>
+								<a itemprop="url" href="training-jack.html">Training-Jack</a>
+							</li>
+							<li>
+								<a itemprop="url" href="bataille-gateaux.html">Bataille de Gâteaux</a>
+							</li>
+							<li>
+								<a href="pet-evo.html">Super Familers</a>
+							</li>
+							<li>
+								<a itemprop="url" href="propos.html">A propos</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<nav class="navbar row">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a itemprop="url" href="p/guerrier.html">Guerrier</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/gladiator.html">Gladiateur</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/assassin.html">Assassin</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/chasseur.html">Chasseur</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/mage.html">Mage</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/sorcier.html">Sorcier</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/druide.html">Druide</a>
+							</li>
+							<li>
+								<a itemprop="url" href="p/shaman.html">Shaman</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-		</section>
-	</div>
-	<!-- bloc-1-presentation END -->
+		</header>
+		<!-- header END -->
 
-	<!-- bloc-3-what-i-do -->
-	<div class="bloc tc-white bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
-		<div class="bloc-lg">
-			<div class="row avatar bgc-grey panel-rd">
-				<section class="col-sm-12">
-					<h2 class="mg-md text-center tc-black">
-						Que vous dormiez, mangiez ou preniez le métro, venez jouer à Ulala: Idle Adventure!
-						<br>
-						Un MMORPG mobile en veille qui donne vie à l'excitation et à l'aventure de l'âge de pierre d'une manière amusante et sociale!.
-						<br>
-					</h2>
-					<p class="text-center lead">
-						Que vous dormiez, mangiez ou preniez le métro, venez jouer à Ulala: Idle Adventure! Un MMORPG mobile en veille qui donne vie à l'excitation et à l'aventure de l'âge de pierre d'une manière amusante et sociale!
-						<br>
-						Imaginez-vous l'âge de pierre si insouciant?
-						<br>
-						Sur le continent vaste et sauvage où la glace et le feu, le tonnerre et la foudre se mêlent, au bord du désert et au pied d'un volcan, vivent un groupe de joyeux Ulala et un groupe de petits monstres.
-						<br>
-						Le cor de chasse de cette saison est sur le point de sonner! Montez sur votre Tyrannosaure Rex, amenez tous vos amis et montrez que vous êtes le meilleur chasseur du monde d'Ulala cette saison.
-						<br>
-						<br>
-						Avez-vous déjà expérimenté un RPG aussi relaxant?
-						<br>
-						Vous voulez être numéro un, mais vous ne voulez pas passer trop de temps à jouer? Venez jouer à Ulala, un gameplay facile qui ne vous détournera pas de votre vie quotidienne!
-						<br>
-						Fatigué de faire des efforts laborieux pour améliorer vos personnages? Rendez-vous sur Ulala, où votre personnage et vos animaux de compagnie seront automatiquement améliorés et évoluent à l'infini, Nous apportons un tout nouveau concept et une nouvelle expérience de jeu au gameplay de MMORPG.
-						<br>
-						En tout temps et en tout lieu sur Ulala, faites équipe et faites-vous de nouveaux amis, tout en discutant ou en prenant un repas. Jouer à un jeu de rôle n'a jamais été aussi facile!
-						<br>
-						<br>
-						Faites équipe avec des amis et faites-vous un nom!
-						<br>
-						Dans le monde d'Ulala, vous pouvez profiter de toutes sortes de bonus et d'avantages en faisant équipe! Détendez-vous et entrez dans l'univers d'Ulala avec tous vos amis et votre famille.
-						<br>
-						<br>
-						Une expérience de jeu vaste et polyvalente
-						<br>
-						Le jeu est enrichi par un très grand choix de compétences, d'équipements, de skins et bien plus encore!
-						<br>
-						Récupérez des pièces d'équipement épique et des cartes de compétences, débloquez et améliorez de puissants ensembles de compétences.
-						<br>
-						Ulala offre un style diversifié, en présentant des milliers de combinaisons différentes de compétences, d'équipements et bien plus encore, vous permettant de créer votre propre classe et style de jeu!
-						<br>
-						Apportez votre animal de compagnie préféré et lancez-vous pour un coup puissant!
-						<br>
-						<br>
-						Choix infini d'animaux de compagnie
-						<br>
-						<br>
-						Tyrannosaurus Rex, Triceratops, Sabre Tiger, Marmots… Vous avez le choix de votre animal de compagnie personnel, qui grandira et grandira avec vous dans cette aventure. N'oubliez pas de préparer vos délicieuses recettes et pièges. Nous vous souhaitons bonne chance!
-						<br>
-						<br>
-					</p>
-					<h2 class="mg-md text-center tc-black">
-						Pour plus d'informations:
-					</h2>
-					<p class="text-center lead white">
-						<a class="ltc-white bold-link" href="https://ulala.xdg.com/">Site officiel</a>
-						<br>
-						<br>
-						<a class="ltc-white bold-link" href="https://facebook.com/PlayUlala.fr/">Groupe Facebook</a>
-						<br>
-						<br>
-						<a class="ltc-white bold-link" href="guide.html">Guide</a>
-						<br>
-					</p>
+		<main>
+			<!-- bloc-6 -->
+			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax"
+				id="bloc-1-hero">
+				<section class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center hero-bloc-text tc-white">
+								A Propos d'Ulala - Idle Adventure
+							</h1>
+						</div>
+					</div>
 				</section>
 			</div>
-		</div>
-	</div>
-	<!-- bloc-3-what-i-do END -->
-	
-	<!-- ScrollToTop Button -->
-	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-	<!-- ScrollToTop Button END-->
+			<!-- bloc-6 END -->
 
-
-</main>
-<!-- Footer - bloc-8 -->
-<footer class="bloc tc-white bgc-white bloc-bg-texture texture-paper b-parallax" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row ">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					Ulala : Idle Adventure<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://twitter.com/" title="tw" class="social" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://facebook.com/PlayUlala.fr/" title="fb" class="social" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://dribbble.com/" title="dribbble" class="social" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://www.instagram.com/" title="instagram" class="social" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
+			<!-- bloc-3-what-i-do -->
+			<div class="bloc tc-white bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax"
+				id="bloc-3-what-i-do">
+				<div class="bloc-lg">
+					<div class="row avatar bgc-grey panel-rd">
+						<section class="col-sm-12">
+							<h2 class="mg-md text-center tc-black">
+								Que vous dormiez, mangiez ou preniez le métro, venez jouer à Ulala: Idle Adventure!
+								<br>
+								Un MMORPG mobile en veille qui donne vie à l'excitation et à l'aventure de l'âge de
+								pierre d'une manière amusante et sociale!.
+								<br>
+							</h2>
+							<p itemprop="description" class="text-center lead">
+								Que vous dormiez, mangiez ou preniez le métro, venez jouer à Ulala: Idle Adventure! Un
+								MMORPG mobile en veille qui donne vie à l'excitation et à l'aventure de l'âge de pierre
+								d'une manière amusante et sociale!
+								<br>
+								Imaginez-vous l'âge de pierre si insouciant?
+								<br>
+								Sur le continent vaste et sauvage où la glace et le feu, le tonnerre et la foudre se
+								mêlent, au bord du désert et au pied d'un volcan, vivent un groupe de joyeux Ulala et un
+								groupe de petits monstres.
+								<br>
+								Le cor de chasse de cette saison est sur le point de sonner! Montez sur votre
+								Tyrannosaure Rex, amenez tous vos amis et montrez que vous êtes le meilleur chasseur du
+								monde d'Ulala cette saison.
+								<br>
+								<br>
+								Avez-vous déjà expérimenté un RPG aussi relaxant?
+								<br>
+								Vous voulez être numéro un, mais vous ne voulez pas passer trop de temps à jouer? Venez
+								jouer à Ulala, un gameplay facile qui ne vous détournera pas de votre vie quotidienne!
+								<br>
+								Fatigué de faire des efforts laborieux pour améliorer vos personnages? Rendez-vous sur
+								Ulala, où votre personnage et vos animaux de compagnie seront automatiquement améliorés
+								et évoluent à l'infini, Nous apportons un tout nouveau concept et une nouvelle
+								expérience de jeu au gameplay de MMORPG.
+								<br>
+								En tout temps et en tout lieu sur Ulala, faites équipe et faites-vous de nouveaux amis,
+								tout en discutant ou en prenant un repas. Jouer à un jeu de rôle n'a jamais été aussi
+								facile!
+								<br>
+								<br>
+								Faites équipe avec des amis et faites-vous un nom!
+								<br>
+								Dans le monde d'Ulala, vous pouvez profiter de toutes sortes de bonus et d'avantages en
+								faisant équipe! Détendez-vous et entrez dans l'univers d'Ulala avec tous vos amis et
+								votre famille.
+								<br>
+								<br>
+								Une expérience de jeu vaste et polyvalente
+								<br>
+								Le jeu est enrichi par un très grand choix de compétences, d'équipements, de skins et
+								bien plus encore!
+								<br>
+								Récupérez des pièces d'équipement épique et des cartes de compétences, débloquez et
+								améliorez de puissants ensembles de compétences.
+								<br>
+								Ulala offre un style diversifié, en présentant des milliers de combinaisons différentes
+								de compétences, d'équipements et bien plus encore, vous permettant de créer votre propre
+								classe et style de jeu!
+								<br>
+								Apportez votre animal de compagnie préféré et lancez-vous pour un coup puissant!
+								<br>
+								<br>
+								Choix infini d'animaux de compagnie
+								<br>
+								<br>
+								Tyrannosaurus Rex, Triceratops, Sabre Tiger, Marmots… Vous avez le choix de votre animal
+								de compagnie personnel, qui grandira et grandira avec vous dans cette aventure.
+								N'oubliez pas de préparer vos délicieuses recettes et pièges. Nous vous souhaitons bonne
+								chance!
+								<br>
+								<br>
+							</p>
+							<h2 class="mg-md text-center tc-black">
+								Pour plus d'informations:
+							</h2>
+							<p class="text-center lead white">
+								<a class="ltc-white bold-link" href="https://ulala.xdg.com/" target="_blank"
+									rel="noreferrer noopener">Site officiel</a>
+								<br>
+								<br>
+								<a class="ltc-white bold-link" href="https://facebook.com/PlayUlala.fr/" target="_blank"
+									rel="noreferrer noopener">Groupe Facebook</a>
+								<br>
+								<br>
+								<a class="ltc-white bold-link" href="guide.html">Guide</a>
+								<br>
+							</p>
+						</section>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</footer>
-<!-- Footer - bloc-8 END -->  
+			<!-- bloc-3-what-i-do END -->
 
+			<!-- ScrollToTop Button -->
+			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+					class="fa fa-chevron-up"></span></a>
+			<!-- ScrollToTop Button END-->
+
+
+		</main>
+
+		<!-- Footer - bloc-8 -->
+		<footer class="bloc tc-white bgc-dark-slate-blue bloc-bg-texture texture-paper b-parallax" id="bloc-8">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h3 class="lead white">
+							Ulala : Idle Adventure<br>
+						</h3>
+						<ul class="row-no-gutters list-unstyled social">
+							<li class="col-sm-4">
+								<a href="https://twitter.com/IdleUlala/" title="tw" aria-label="Twitter" target="_blank"
+									rel="noreferrer noopener"><span class="fa fa-twitter icon-md"></span></a>
+							</li>
+							<li class="col-sm-4">
+								<a href="https://facebook.com/PlayUlala.fr/" title="fb" aria-label="Facebook"
+									target="_blank" rel="noreferrer noopener"><span
+										class="fa fa-facebook icon-md"></span></a>
+							</li>
+							<li class="col-sm-4">
+								<a href="https://github.com/J-Roza/" title="github" aria-label="github" target="_blank"
+									rel="noreferrer noopener"><span class="fa fa-github-square icon-md"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer - bloc-8 END -->
+
+		<!-- Script -->
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/jquery.touchSwipe.js" defer></script>
+		<script src="./js/gmaps.js"></script>
+
+		<!-- Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127736747-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-127736747-3');
+		</script>
+		<!-- Analytics END -->
+
+		<!-- Empêcher la sélection -->
+		<script>
+			//<!--
+			function ffalse() {
+				return false;
+			}
+
+			function ftrue() {
+				return true;
+			}
+			document.onselectstart = new Function("return false");
+			if (window.sidebar) {
+				document.onmousedown = ffalse;
+				document.onclick = ftrue;
+			}
+			//-->
+		</script>
+		<!-- Empêcher la sélection END -->
+		<!-- Script END-->
+	</div>
 </body>
+
 </html>

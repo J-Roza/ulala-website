@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 	<!-- Page Title -->
-	<title>Ulala - Idle Adventure - Guide</title>
+	<title>Contactez moi - Ulala : Idle Adventure</title>
 
 	<!-- Canonical link -->
 	<link rel="canonical" href="https://ulala-idle-adventure.iko-iko.net/">
@@ -41,7 +41,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 </head>
 
-<body itemscope itemtype="http://schema.org/VideoGame">
+
+<body itemscope="" itemtype="https://schema.org/Corporation">
 	<!-- Principal conteneur -->
 	<div class="page-container">
 
@@ -51,8 +52,8 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" itemprop="url" href="index.html"><img src="img/logo_ulala.webp"
-								alt="Logo Ulala Idle Aventure" rel="preload" height="40" /></a>
+						<a class="navbar-brand" href="index.html"><img src="img/logo_ulala.webp"
+								alt="Logo Ulala Idle Aventure" height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -72,9 +73,6 @@
 							</li>
 							<li>
 								<a itemprop="url" href="bataille-gateaux.html">Bataille de Gâteaux</a>
-							</li>
-							<li>
-								<a href="pet-evo.html">Super Familers</a>
 							</li>
 							<li>
 								<a itemprop="url" href="propos.html">A propos</a>
@@ -124,7 +122,7 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<h1 class="text-center hero-bloc-text tc-white">
-								Guide Ulala - Idle Adventure
+								Contactez moi
 							</h1>
 						</div>
 					</div>
@@ -132,91 +130,44 @@
 			</div>
 			<!-- bloc-6 END -->
 
-			<!-- bloc-3- -->
-			<div class="bloc bgc-dark-slate-blue" id="bloc-2-services">
-				<section class="bloc-md d-bloc bloc-bg-texture texture-paper b-parallax">
-					<header class="row">
-						<div class="col-sm-12 text-center">
-							<h2 class="h2 tc-yellow hero-bloc-text">Les Guides</h2>
+			<!-- bloc-7 -->
+			<div class="bloc bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-7">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-6">
+							<form action="contact.php" method="post" id="form_1" novalidate>
+								<div class="form-group">
+									<label for="nom" class="lead">Nom</label>
+									<input type="text" name="nom" id="name" class="form-control" required />
+								</div>
+								<div class="form-group">
+									<label for="email" class="lead">Adresse email</label>
+									<input type="email" name="email" id="email" class="form-control" required />
+								</div>
+								<div class="form-group">
+									<label for="subject" class="lead">Sujet</label>
+									<input type="text" id="subject" name="subject" class="form-control" required
+										placeholder="Suggestion" />
+									<input type="hidden" name="raison">
+								</div>
+								<div class="form-group">
+									<label for="message" class="lead">Si vous avez une suggestion</label>
+									<textarea id="message" name="brief"
+										placeholder="Ajoutez autant de détails que nécessaire" class="form-control"
+										rows="4" cols="50" required></textarea>
+								</div>
+								<button class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink" type="submit">
+									Envoyer
+								</button>
+							</form>
 						</div>
-					</header>
-					<div>
-						<div class="row col-sm-offset-1">
-							<a href="training-jack.html">
-								<div
-									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
-									<h2 class="h2 mg-md tc-carmine-pink text-center">
-										Training-Jack
-									</h2>
-									<img itemprop="image" src="./img/training-jack/training-jack.webp"
-										class="center-block image-resize-mode" width="330" alt="image training-jack" />
-									<br>
-									<p class="lead">
-										Voici des choix de competence qui ont fait leurs preuves dans le Training-Jack
-									</p>
-								</div>
-							</a>
-							<a href="bataille-gateaux.html">
-								<div
-									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
-									<h2 class="h2 mg-md tc-carmine-pink text-center">
-										Bataille de Gâteaux
-									</h2>
-									<img itemprop="image" src="./img/piece/piece-event.webp"
-										class="center-block image-resize-mode" width="330" alt="image training-jack" />
-									<br>
-									<p class="lead">
-										Voici comment obtenir la plupart des pièces dans l’événement Bataille de Gâteaux
-									</p>
-								</div>
-							</a>
-							<a href="pet-evo.html">
-								<div
-									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
-									<h2 class="h2 mg-md tc-carmine-pink text-center">
-										Super Familers
-									</h2>
-									<img itemprop="image" src="./img/pet-evo/chat.gif"
-										class="center-block image-resize-mode" width="330" alt="image chat" />
-									<br>
-									<p class="lead">
-										Guide sur l'évolution des Familiers
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-				</section>
-			</div>
-			<!-- bloc-3- END -->
-
-
-			<!-- bloc-3-what-i-do -->
-			<div class="bloc tc-white bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax"
-				id="bloc-3-what-i-do">
-				<div class="bloc-lg">
-					<div class="row avatar bgc-grey panel-rd">
-						<section class="col-sm-12">
-							<h2 class="h2 mg-md text-center tc-black">
-								Pour plus d'informations:
-							</h2>
-							<p class="text-center lead white">
-								<a class="ltc-white bold-link" href="https://ulala.xdg.com/" target="_blank"
-									rel="noreferrer noopener">Site officiel</a>
-								<br>
-								<br>
-								<a class="ltc-white bold-link" href="https://facebook.com/PlayUlala.fr/" target="_blank"
-									rel="noreferrer noopener">Groupe Facebook</a>
-								<br>
-								<br>
-								<a class="ltc-white bold-link" href="guide.html">Guide</a>
-								<br>
-							</p>
-						</section>
 					</div>
 				</div>
 			</div>
-			<!-- bloc-3-what-i-do END -->
+			<!-- bloc-7 END -->
+
+
+
 
 			<!-- ScrollToTop Button -->
 			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
@@ -278,7 +229,7 @@
 		<!-- Analytics END -->
 
 		<!-- Empêcher la sélection -->
-		<script>
+		<script type="text/javascript">
 			//<!--
 			function ffalse() {
 				return false;
@@ -296,7 +247,7 @@
 		</script>
 		<!-- Empêcher la sélection END -->
 		<!-- Script END-->
-	</div>
+
 </body>
 
 </html>

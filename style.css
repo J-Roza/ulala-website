@@ -29,7 +29,7 @@ body {
 
 
 .background_img{
-    background-image: url("img/background.jpg");
+    background-image: url("img/background.webp");
     background-size: 90%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -332,13 +332,9 @@ a:hover {
 
 @media (max-width: 768px){
     .article-index{
-        height: 40vw;
-        min-height: 800px;
         min-width: 200px;
     }
 }
-
-
 
 .navbar-brand {
     height: auto;
@@ -592,7 +588,7 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);11px
+    background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -739,14 +735,18 @@ p {
 }
 
 .h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Burbank";
 }
 
 .h2 {
     font-size: 30px;
     font-family: "Burbank";
+}
 
+.h3 {
+    font-size: 25px;
+    font-family: "Burbank";
 }
 
 .cta-hero {
@@ -761,6 +761,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto;
+    padding-left: 0;
 }
 
 h2 {
@@ -831,6 +832,10 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
+}
+
+.bgc-tangerine{
+    color: #F3976C!important;
 }
 
 .bgc-dutch-white {
@@ -923,7 +928,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/banner.jpg");
+    background-image: url("img/banner.webp");
     background-size: 100%;
 }
 
@@ -931,9 +936,10 @@ h4 {
     .bg-banniere {
         background-image: none;
     }
-
+    .cta-hero {
+        font-size: 10px;
+    }
 }
-
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");

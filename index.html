@@ -1,434 +1,528 @@
 <!doctype html>
 <html lang="fr">
-<head>	
 
+<head>
 	<!-- Primary Meta Tags -->
-	<title>Guide Ulala : Idle Adventure</title>
-	<meta name="title" content="Guide & Astuce sur Ulala : Idle Adventure">
-	<meta name="description" content="Un site dédié à Ulala : Idle Adventure contenant ➤des guides, ➤astuces etc ♥">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+	<!-- Page Title -->
+	<title>Ulala - Idle Adventure - Guide et astuces pour bien débuter</title>
+
+	<!-- Canonical link -->
+	<link rel="canonical" href="https://ulala-idle-adventure.iko-iko.net/">
+
+	<!-- Secondary Meta Tags -->
+	<meta name="description"
+		content="Un site dédié à Ulala : Idle Adventure contenant ➤ guides pour les personnages, ➤ guide pour bien débuter, ➤ des astuces...">
 	<meta name="Content-Language" content="fr">
 	<meta name="Identifier-Url" content="https://ulala-idle-adventure.iko-iko.net/">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta name=“robots” content=“noindex”>
-
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ulala-idle-adventure.iko-iko.net/">
 	<meta property="og:title" content="Guide Ulala : Idle Adventure">
-	<meta property="og:description" content="Un site dédié à Ulala : Idle Adventure contenant ➤des guides, ➤astuces etc ♥">
+	<meta property="og:description"
+		content="Un site dédié à Ulala : Idle Adventure contenant ➤ guides pour les personnages, ➤ guide pour bien débuter, ➤ des astuces...">
 	<meta property="og:image" content="https://ulala-idle-adventure.iko-iko.net/img/logo_dino.jpg" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="https://ulala-idle-adventure.iko-iko.net/">
 	<meta name="twitter:title" content="Guide Ulala : Idle Adventure">
-	<meta name="twitter:description" content="Un site dédié à Ulala : Idle Adventure contenant ➤des guides, ➤astuces etc ♥">
+	<meta name="twitter:description"
+		content="Un site dédié à Ulala : Idle Adventure contenant ➤ guides pour les personnages, ➤ guide pour bien débuter, ➤ des astuces...">
 	<meta name="twitter:image" content="https://ulala-idle-adventure.iko-iko.net/img/logo_dino.jpg">
 
-	<link rel="canonical" href="https://ulala-idle-adventure.iko-iko.net/">
-
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">    
+	<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
-
-<!-- Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127736747-3"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-127736747-3');
-	</script>
-<!-- Analytics END -->
-
-<!-- Empêcher la sélection -->
-<script type="text/javascript">
-	//<!--
-			function ffalse()
-			{
-					return false;
-			}
-			function ftrue()
-			{
-					return true;
-			}
-			document.onselectstart = new Function ("return false");
-			if(window.sidebar)
-			{
-					document.onmousedown = ffalse;
-					document.onclick = ftrue;
-			}
-	//-->
-</script>
-<!-- Empêcher la sélection END -->
-    
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 </head>
 
-<body itemscope="" itemtype="https://schema.org/Corporation">
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- header -->
-<header class="bloc bgc-white l-bloc bgc-dark-slate-blue d-bloc  bloc-bg-texture texture-paper b-parallax" id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img itemprop="logo" src="img/logo_ulala.png" alt="Logo Ulala Idle Aventure" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-						<a href="guide.html">Guide</a>
-					</li>
-					<li>
-						<a href="propos.html">A propos</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<nav class="navbar row">
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="perso-guerrier.html">Guerrier</a>
-					</li>
-					<li>
-						<a href="perso-gladiator.html">Gladiateur</a>
-					</li>
-					<li>
-						<a href="perso-assassin.html">Assassin</a>
-					</li>
-					<li>
-						<a href="perso-chasseur.html">Chasseur</a>
-					</li>
-					<li>
-						<a href="perso-mage.html">Mage</a>
-					</li>
-					<li>
-						<a href="perso-demon.html">Démoniste</a>
-					</li>
-					<li>
-						<a href="perso-druide.html">Druide</a>
-					</li>
-					<li>
-						<a href="perso-shaman.html">Shaman</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</header>
-<!-- header END -->
+<body>
+	<!-- Principal conteneur -->
+	<div class="page-container">
 
-<main>
-	<!-- bloc-1-presentation -->
-	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-		<section class="container bloc-lg">
-			<div class="row ">
-				<div class="col-sm-12">
-					<img itemprop="logo" src="img/logo_ulala.png" class="center-block image-resize-mode" width="350" alt="Logo Ulala Idle Aventure" />
-					<h1 class="h1 text-center hero-bloc-text tc-white">
-						Ulala: Idle Adventure
-					</h1>
-					<div class="text-center">
-						<a href="guide.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink" id="cta-hero">Guide</a>
+		<!-- header -->
+		<header class="bloc bgc-white l-bloc bgc-dark-slate-blue d-bloc  bloc-bg-texture texture-paper b-parallax"
+			id="bloc-0">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html"><img src="img/logo_ulala.webp"
+								alt="Logo Ulala Idle Aventure" rel="preload" height="40" /></a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
+							data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+								class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
 					</div>
-				</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html">Accueil</a>
+							</li>
+							<li>
+								<a href="guide.html">Guide</a>
+							</li>
+							<li>
+								<a href="training-jack.html">Training-Jack</a>
+							</li>
+							<li>
+								<a href="bataille-gateaux.html">Bataille de Gâteaux</a>
+							</li>
+							<li>
+								<a href="pet-evo.html">Super Familers</a>
+							</li>
+							<li>
+								<a href="propos.html">A propos</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<nav class="navbar row">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="p/guerrier.html">Guerrier</a>
+							</li>
+							<li>
+								<a href="p/gladiator.html">Gladiateur</a>
+							</li>
+							<li>
+								<a href="p/assassin.html">Assassin</a>
+							</li>
+							<li>
+								<a href="p/chasseur.html">Chasseur</a>
+							</li>
+							<li>
+								<a href="p/mage.html">Mage</a>
+							</li>
+							<li>
+								<a href="p/sorcier.html">Démoniste</a>
+							</li>
+							<li>
+								<a href="p/druide.html">Druide</a>
+							</li>
+							<li>
+								<a href="p/shaman.html">Shaman</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-		</section>
-	</div>
-	<!-- bloc-1-presentation END -->
+		</header>
+		<!-- header END -->
 
-	<!-- bloc-2-services -->
-	<div class="bloc bgc-dark-slate-blue" id="bloc-2-services">
-		<section class="bloc-md d-bloc bloc-bg-texture texture-paper b-parallax">
-			<header class="row">
-				<div class="col-sm-12 text-center">
-					<h2 class="h2 tc-yellow hero-bloc-text">Les differentes classes du jeu</h2>
-				</div>
-			</header>
-			<div>
-				<div class="row col-sm-offset-1">
-					<a class="zoom image" href="perso-guerrier.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
+		<main>
+			<!-- bloc-1-presentation -->
+			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper b-parallax"
+				id="bloc-1-hero">
+				<section class="container bloc-lg">
+					<div class="row ">
+						<div class="col-sm-12">
+							<img src="img/logo_ulala.webp" class="center-block image-resize-mode" width="350"
+								alt="Logo Ulala Idle Aventure" />
+							<h1 class="h1 text-center hero-bloc-text tc-white">
+								Ulala - Idle Adventure
+							</h1>
 							<div class="text-center">
-								<img itemprop="logo" src="img/Warrior_v2.png" class="center-block image-resize-mode" width="350" alt="Image Guerrier" />
+								<a href="guide.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink">Guide</a>
 							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Guerrier
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Armes: doubles lames
-								<br>
-								Avantages: capacité de survie élevée / attaque moyenne
-								<br>
-								Inconvénients: faible soutien
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								Classe universelle, qui assumera à la fois le rôle du char et du héros attaquant.
-							</p>
 						</div>
-					</a>
-					<a class="zoom image" href="perso-gladiator.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-							<div class="text-center">
-								<img itemprop="logo" src="img/Gladiator_v2.png" class="center-block image-resize-mode" width="350" alt="Image Gladiator" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Gladiateur
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Arme: marteau
-								<br>
-								Avantages: capacité de survie élevée / soutien moyen
-								<br>
-								Inconvénients: attaque faible
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								Un char puissant capable d'absorber les frappes ennemies et de défendre les alliés.
-								<br>
-								Cette classe offre également un bon support en interrompant une attaque ennemie.
-								<br>
-								Cependant, cela coûte cher: un guerrier inflige relativement peu de dégâts, il a donc besoin du soutien d'un ou deux héros attaquants.
-							</p>
-						</div>
-					</a>
-					<a class="zoom image" href="perso-assassin.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-
-							<div class="text-center">
-								<img itemprop="logo" src="img/Assassin_v2.png" class="center-block image-resize-mode" width="350" alt="Image Assassin" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Assassin
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Armes: Double poignards
-								<br>
-								Avantages: Attaque élevée
-								<br>
-								Inconvénients: vitalité et soutien faibles
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								Idéal pour les équipes avec de puissants héros / chars attaquants, car l'assassin est en mauvaise santé. 
-								De plus, vous aurez besoin d'un bon guérisseur.
-								Cependant, l'Assassin inflige des dégâts très élevés, 
-								détruisant les ennemis beaucoup plus rapidement que la plupart des autres classes disponibles.
-							</p>
-						</div>
-					</a>
-					<a class="zoom image" href="perso-chasseur.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-							<div class="text-center">
-								<img itemprop="logo" src="img/Hunter_v2.png" class="center-block image-resize-mode" width="350" alt="Image Chasseur" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Chasseur
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Arme: arc
-								<br>
-								Avantages: attaque élevée / capacité de survie moyenne
-								<br>
-								Inconvénients: soutien faible
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								Peut trouver une place dans n'importe quelle équipe car il inflige de puissants dégâts à longue portée. 
-								Cela donne au Chasseur un meilleur taux de survie que les Assassins, mais ils ont toujours de faibles compétences de soutien.
-							</p>
-						</div>
-					</a>		
-					<a class="zoom image" href="perso-mage.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-							<div class="text-center">
-								<img itemprop="logo" src="img/Mage_v2.png" class="center-block image-resize-mode" width="350" alt="Image Mage" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Mage
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Arme: sceptre
-								<br>
-								Avantages du personnel : Attaque élevée
-								<br>
-								Inconvénients: vitalité et soutien faibles
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								Fait d'énormes dégâts à distance, mais le Mage a besoin de tout le soutien de votre équipe, y compris le tank et le guérisseur, 
-								pour compenser leur faible soutien et leur faible vitalité.
-							</p>
-						</div>
-					</a>
-					<a class="zoom image" href="perso-demon.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-							<div class="text-center">
-								<img itemprop="logo" src="img/Warlock_v2.png" class="center-block image-resize-mode" width="350" alt="Image Démoniste" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Démoniste
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Armes: doubles sceptres
-								<br>
-								Avantages: attaque élevée / capacité de survie moyenne
-								<br>
-								Inconvénients: soutien faible
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								<a class="tc-yellow" href="perso-chasseur.html">Comme le chasseur</a>, le démoniste se bat sur les deuxièmes lignes, infligeant d'énormes dégâts aux ennemis devant lui. 
-								Leur rayon d'attaque protège le héros de la plupart des dégâts ennemis.
-							</p>
-						</div>
-					</a>	
-					<a class="zoom image" href="perso-druide.html">
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-							<div class="text-center">
-								<img itemprop="logo" src="img/Druid_v2.png" class="center-block image-resize-mode" width="350" alt="Image Druide" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Druide
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Arme: baton
-								<br>
-								Avantages du personnel : bon soutien / capacité de survie moyenne
-								<br>
-								Inconvénients: attaque faible
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md">
-								Une classe de traitement et de soutien qui prendra soin de la santé de votre équipe. 
-								Il est préférable de travailler en conjonction avec un tank ou des héros attaquants pour compenser la faible puissance de l'attaque.
-							</p>
-						</div>
-					</a>	
-					<a class="zoom image" href="perso-shaman.html">		
-						<div class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd">
-							<div class="text-center">
-								<img itemprop="logo" src="img/Shaman_v2.png" class="center-block image-resize-mode" width="350" alt="Image Shaman" />
-							</div>
-							<h2 class="h2 mg-md tc-carmine-pink text-center">
-								Shaman
-							</h2>
-							<p class="text-center tc-yellow lead">
-								Arme: Tambourin
-								<br>
-								Pros: bon support
-								<br>
-								Inconvénients: faible attaque et capacité de survie
-								<br>
-								<br>
-							</p>
-							<p class="text-center tc-black lead hidden-md hidden-sm hidden-xs">
-								C'est l'une des deux classes de guérisseurs et spécialiste dans le soutien des coéquipiers. 
-								D'un autre côté, le Shaman a une attaque et une vitalité faibles, 
-								il devrait donc y avoir des classes de combat rapproché - de préférence un tank - et des héros attaquants autour de lui.
-							</p>
-						</div>
-					</a>				
-
-				</div>
-			</div>
-		</section>
-	</div>
-	<!-- bloc-2-services END -->
-
-	<!-- bloc-3-what-i-do -->
-	<div class="bloc tc-white bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
-		<div class="bloc-lg">
-			<div class="row avatar bgc-grey panel-rd">
-				<section class="col-sm-12">
-					<h2 class="h2 mg-md text-center tc-black">
-						Pour plus d'informations:
-					</h2>
-					<p class="text-center lead white">
-						<a class="ltc-white bold-link" href="https://ulala.xdg.com/">Site officiel</a>
-						<br>
-						<br>
-						<a class="ltc-white bold-link" href="https://facebook.com/PlayUlala.fr/">Groupe Facebook</a>
-						<br>
-						<br>
-						<a class="ltc-white bold-link" href="guide.html">Guide</a>
-						<br>
-					</p>
+					</div>
 				</section>
 			</div>
-		</div>
-	</div>
-	<!-- bloc-3-what-i-do END -->
-	
-	<!-- ScrollToTop Button -->
-	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-	<!-- ScrollToTop Button END-->
+			<!-- bloc-1-presentation END -->
+
+			<!-- bloc-2-news-->
+			<div class="bloc bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax">
+				<section class="container bloc-lg">
+					<div class="row ">
+						<div class="col-sm-12">
+							<h2 class="h2 tc-yellow text-center hero-bloc-text">
+								Les News
+							</h2>
+							<div class="text-center">
+								<a href="pet-evo.html"
+									class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink">24/09/2020 - Ajout de
+									la rubrique : Super Familers</a>
+							</div>
+							<div class="text-center">
+								<a href="bataille-gateaux.html"
+									class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink">16/09/2020 - Ajout de
+									la rubrique : Bataille de Gâteaux</a>
+							</div>
+							<div class="text-center">
+								<a href="training-jack.html"
+									class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink">06/09/2020 - Ajout de
+									la rubrique : Training-Jack</a>
+							</div>	
+							<div class="text-center">
+								<a href="https://discord.gg/pbQqPtN" class="btn btn-lg btn-clean btn-rd cta-hero btn-carmine-pink">
+									Lien du discord Anglais : https://discord.gg/pbQqPtN
+									<br>
+								</a>
+							</div>					
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- bloc-2-news END -->
 
 
-</main>
-<!-- Footer - bloc-8 -->
-<footer class="bloc tc-white bgc-white bloc-bg-texture texture-paper b-parallax" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row ">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					Ulala : Idle Adventure<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://twitter.com/" title="tw" class="social" target="_blank"><span class="fa fa-twitter icon-md"></span></a>
+			<!-- bloc-3-perso -->
+			<div class="bloc bgc-dark-slate-blue" id="bloc-2-services">
+				<section class="bloc-md d-bloc bloc-bg-texture texture-paper b-parallax">
+					<header class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="h2 tc-yellow hero-bloc-text">Les differentes classes du jeu</h2>
+						</div>
+					</header>
+					<div>
+						<div class="row col-sm-offset-1">
+							<a class="zoom image" href="p/guerrier.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Warrior_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Guerrier" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Guerrier
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Marteau
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/gladiator.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Gladiator_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Gladiator" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Gladiateur
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Double Lames
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/assassin.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Assassin_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Assassin" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Assassin
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Double poignards
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/chasseur.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Hunter_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Chasseur" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Chasseur
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Arc
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+										Beaucoup de compétences de mana ne coutant que 2 attaques pour être déclenché.
+										<br>
+										Fort en PVP avec des, plus robuste que le démoniste et le mage.
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/mage.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Mage_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Mage" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Mage
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Sceptre
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+										Dps à distance se basant sur le critique et les dégâts critique. Excellent aussi
+										bien en pvp qu’en pve
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+										La chance de critique est influencée par le niveau de la cible...
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/sorcier.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Warlock_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image sorcier" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Sorcier
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Doubles Sceptres
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/druide.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Druid_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Druide" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Druide
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Bâton
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+										Sort de protection efficace en Pvp et Pve. Ses capacités de survie sont moyennes
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+										Attaque faible, il est préférable d’avoir un tank pour compenser la faible
+										puissance de l'attaque
+									</p>
+								</div>
+							</a>
+							<a class="zoom image" href="p/shaman.html">
+								<div
+									class="col-sm-4 col-sm-offset-1 article-index mg-md avatar bgc-grey panel-rd text-center">
+									<img src="img/Shaman_v2.webp" class="center-block image-resize-mode" width="350"
+										alt="Image Shaman" />
+									<h2 class="h2 mg-md tc-carmine-pink text-center">
+										Shaman
+									</h2>
+									<h3 class="h3 tc-yellow">
+										Arme :
+									</h3>
+									<p class="lead">
+										Tambourin
+									</p>
+									<h3 class="h3 tc-yellow">
+										Avantage :
+									</h3>
+									<p class="lead">
+
+									</p>
+									<h3 class="h3 tc-yellow">
+										Inconvénients :
+									</h3>
+									<p class="lead">
+
+									</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://facebook.com/PlayUlala.fr/" title="fb" class="social" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://dribbble.com/" title="dribbble" class="social" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a itemprop="sameAs" href="https://www.instagram.com/" title="instagram" class="social" target="_blank"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
+				</section>
+			</div>
+			<!-- bloc-3-perso END -->
+
+			<!-- bloc-3-what-i-do -->
+			<div class="bloc tc-white bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper b-parallax"
+				id="bloc-3-what-i-do">
+				<div class="bloc-lg">
+					<div class="row avatar bgc-grey panel-rd">
+						<section class="col-sm-12">
+							<h2 class="h2 mg-md text-center tc-black">
+								Pour plus d'informations:
+							</h2>
+							<p class="text-center lead white">
+								<a class="ltc-white bold-link" href="https://ulala.xdg.com/" target="_blank"
+									rel="noreferrer noopener">Site officiel</a>
+								<br>
+								<br>
+								<a class="ltc-white bold-link" href="https://facebook.com/PlayUlala.fr/" target="_blank"
+									rel="noreferrer noopener">Groupe Facebook</a>
+								<br>
+								<br>
+								<a class="ltc-white bold-link" href="guide.html">Guide</a>
+								<br>
+							</p>
+						</section>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</footer>
-<!-- Footer - bloc-8 END -->  
+			<!-- bloc-3-what-i-do END -->
 
+			<!-- ScrollToTop Button -->
+			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+					class="fa fa-chevron-up"></span></a>
+			<!-- ScrollToTop Button END-->
+
+
+		</main>
+
+		<!-- Footer - bloc-8 -->
+		<footer class="bloc tc-white bgc-dark-slate-blue bloc-bg-texture texture-paper b-parallax" id="bloc-8">
+			<div class="container bloc-sm">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h3 class="lead white">
+							Ulala : Idle Adventure<br>
+						</h3>
+						<ul class="row-no-gutters list-unstyled social">
+							<li class="col-sm-4">
+								<a href="https://twitter.com/IdleUlala/" title="tw" aria-label="Twitter" target="_blank"
+									rel="noreferrer noopener"><span class="fa fa-twitter icon-md"></span></a>
+							</li>
+							<li class="col-sm-4">
+								<a href="https://facebook.com/PlayUlala.fr/" title="fb" aria-label="Facebook"
+									target="_blank" rel="noreferrer noopener"><span
+										class="fa fa-facebook icon-md"></span></a>
+							</li>
+							<li class="col-sm-4">
+								<a href="https://github.com/J-Roza/" title="github" aria-label="github" target="_blank"
+									rel="noreferrer noopener"><span class="fa fa-github-square icon-md"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer - bloc-8 END -->
+
+		<!-- Script -->
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/jquery.touchSwipe.js" defer></script>
+		<script src="./js/gmaps.js"></script>
+
+		<!-- Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127736747-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-127736747-3');
+		</script>
+		<!-- Analytics END -->
+
+		<!-- Empêcher la sélection -->
+		<script>
+			//<!--
+			function ffalse() {
+				return false;
+			}
+
+			function ftrue() {
+				return true;
+			}
+			document.onselectstart = new Function("return false");
+			if (window.sidebar) {
+				document.onmousedown = ffalse;
+				document.onclick = ftrue;
+			}
+			//-->
+		</script>
+		<!-- Empêcher la sélection END -->
+		<!-- Script END-->
+	</div>
 </body>
+
 </html>
