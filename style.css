@@ -334,11 +334,14 @@ a:hover {
     min-width: 500px;
 }
 
-@media (max-width: 768px){
+
+@media only screen and (max-width : 450px) {
     .article-index{
         min-width: 200px;
     }
 }
+
+
 
 .navbar-brand {
     height: auto;
@@ -971,10 +974,6 @@ h4 {
     .cta-hero {
         font-size: 10px;
     }
-}
-
-.bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
